@@ -1,7 +1,7 @@
 <html>
     <title> Index </title>
     <head>
-     <link rel="icon" type="image/png" href="arsenallogo.png">
+     <link rel="icon" type="image/png" href="webicon1.png">
      </head>
         <body>
             <header>
@@ -11,15 +11,28 @@
                 <p> Welcome to my website! Here you can find all the information about myself like my hobbies, skills, academic background, and my future goals. You can also find various HTMl tags like video, audio, images, tables, lists, being used in a practical way. Enjoy exploring my website</p>
 
                 <h2> About Myself </h2>
-                <p> My name is Agrim Khatiwada I study in St Xavier's College, Maitighar. I am currently studying computer science stream. I scored 4.00 gpa in my SEE examinations and succesfully graduated from Himalayan Whitehouse IB World School. </p>
+                <p>
+            My name is Agrim Khatiwada. I study in St Xavier's College, Maitighar.
+            I am currently studying computer science stream. I scored 4.00 GPA in my
+            SEE examinations and successfully graduated from Himalayan Whitehouse
+            IB World School.
+        </p>
+
+          <p>
+            <strong>I am a hardworking student and I like learning new things.</strong>
+        </p>
+
             </main>
-            <h3> Some of my hobbies:</h3>
+
+          
+                <h3>Some of my hobbies:</h3>
             <ul>
     <li>Gaming</li>
     <li>Playing Football</li>
     <li>Cooking</li>
     <li>Learning new things</li>
             </ul>
+
             <mark> There are some more hobbies which I haven't included in the above list! </mark>
 
             <section> 
@@ -31,27 +44,50 @@
     <li>Solving a Rubik's cube</li>
     <li>Playing video games</li>
                 </ol>
+
+                 <p>
+            I wanted to become a <del>professional gamer</del> software developer.
+        </p>
+
             </section>
             
             <section>
             <h5> My Future Goals </h5>
             <p> My future goal is to become a software developer and study at a prestigious university like Pulchowk Campus. I aspire to become a very sucessful and hard-working software developer.</p>
 
+             <p>
+            In chemistry, water is represented as H<sub>2</sub>O.
+            The area of a square can be represented as a<sup>2</sup>.
+        </p>
+
+        <blockquote>
+            "Success comes from hard work and dedication."
+        </blockquote>
+        
             <h6> Contents of this website </h6>
            <p> <b> This Website </b> <i> contains use of various </i> <em> HTML Tags </em> <mark> Like iamge, audio, video, etc. </mark> </p>
                 </section>
 
         <h2> My Photo </h2>
-        <img src="arsenallogo.png" alt="Logo of the Football Club Arsenal.">
-        <img src="webicon.png" alt="Logo of the website.">
+        <img src="arsenallogo.png" alt="Logo of the Football Club Arsenal." 
+        width="300"
+         height="300">
+        <img src="webicon1.png" alt="Logo of the website."
+        width="300"
+         height="300">
+        
 
         <h2> Video of a sunset </h2>
         <video width="320" height="240" controls>
   <source src="sunsetvideo.mp4" type="video/mp4">
+     Your browser does not support the video element.
     </video>
+
+
     <h2> Happy Birthday Song </h2>
     <audio controls>
   <source src="hbdsong.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
     </audio>
 
 <style>
@@ -59,6 +95,10 @@
     border: 1px solid black;
   }
 </style>
+
+
+<h2>My Educational Background</h2>
+
 
 <table>
   <tr>
@@ -83,9 +123,72 @@
   </tr>
 </table>
 
-<form>
-    
-</form>
+<h2>My CV</h2>
+
+    <object data="agrim_cv.pdf"
+            type="application/pdf"
+            width="600"
+            height="400">
+
+        Your browser does not support PDF files.
+
+    </object>
+
+     <h2>Embedded Arsenal Logo</h2>
+
+    <embed src="arsenallogo.png"
+           type="image/png"
+           width="300"
+           height="300">
+
+<h2>Arsenal vs Real Madrid Highlights</h2>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/rZKOrIiw_rg"
+        title="Arsenal vs Real Madrid Highlights"
+        allowfullscreen>
+    </iframe>
+
+<h2>Contact Me</h2>
+
+    <form>
+        <table>
+            <tr>
+                <td>Enter Your Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Enter Your Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Select Your Interest:</td>
+                <td>
+                    <select name="interest">
+                        <option value="football">Football</option>
+                        <option value="gaming">Gaming</option>
+                        <option value="programming">Programming</option>
+                        <option value="cooking">Cooking</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Write a Message:</td>
+                <td>
+                    <textarea name="message" rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
 
         </body>
 </html>
